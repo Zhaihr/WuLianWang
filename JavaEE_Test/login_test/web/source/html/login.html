@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/login.js"></script>
+</head>
+<body>
+
+    <div class="login-box">
+        <div class="login-text">
+            <p>物联网平台</p>
+        </div>
+        <form class="login" action="/loginServlet">
+            <div class="login-center">
+                <p><label for="user">用户名:</label></p>
+                <p><input type="text" class="loginInput" id="user" name="username" placeholder="请输入用户名..." autocomplete="off"></p>
+                <p><label for="password">密&emsp;码:</label></p>
+                <p><input type="password" class="loginInput" id="password" name="password" placeholder="请输入密码..." autocomplete="off"></p>
+            </div>
+            <div class="login-buttons">
+                <div class="login-button">
+                    <div class="login-tips">
+                        <a href="">新用户注册</a>
+                    </div>
+                    <div>
+                        <input type="submit" class="loginBtn" value="登&emsp;录">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

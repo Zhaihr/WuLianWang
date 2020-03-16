@@ -1,0 +1,90 @@
+html{
+    height:100%;
+}
+body{
+    background-image:url("../img/login_background.jpg");;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+.login-box{
+    font: 14px 'Microsoft YaHei', '微软雅黑';
+    border-radius: 5px;
+    float:left;
+    margin:8% 38%;
+    border:1px solid;
+    height:400px;
+    width:400px;
+    background-color:rgba(255,255,255,0.1);
+}
+.login-text{
+    width:300px;
+    margin:0 auto;
+    border-bottom: 2px solid chocolate;
+}
+.login-text p{
+    text-align: center;
+    margin-bottom: 0px;
+    font: 25px 'Microsoft YaHei', '微软雅黑';
+    color: #ffffff;
+}
+.login-center{
+    margin:0 auto;
+    border-radius: 2px;
+    color: #ffffff;
+    font: 18px 'Microsoft YaHei', '微软雅黑';
+    padding: 8px 14px;
+    margin-bottom: 8px;
+    width: 310px;
+}
+.login-center p{
+    margin-bottom:10px;
+}
+.loginInput{
+    border: 1px solid #D2D9dC;
+    border-radius: 2px;
+    color: #444;
+    font: 12px 'Microsoft YaHei', '微软雅黑';
+    padding: 8px 14px;
+    margin-bottom: 8px;
+    width: 280px;
+}
+.loginInput:FOCUS{
+    border: 1px solid #B7D4EA;
+    box-shadow: 0 0 8px #B7D4EA;
+}
+.loginInput:HOVER{
+    border: 1px solid #B7D4EA;
+    box-shadow: 0 0 8px #B7D4EA;
+}
+
+.login-button{
+    width:300px;
+    height:100px;
+    margin-left:12%;
+}
+.login-tips a{
+    text-decoration: none;
+    vertical-align: middle;
+    color: #ABABAB;
+    cursor: pointer;
+}
+.login-tips a:HOVER {
+    color: #000000;
+    text-decoration: none;
+    text-shadow:0 0 5px #B7D4EA;
+}
+.loginBtn{
+    cursor:pointer;
+    font-size:18px;
+    color:white;
+    margin-top:10px;
+    height:40px;
+    width:308px;
+    border-radius: 2px;
+    border:0;
+    background-color:#00cc00;
+}
+.loginBtn:HOVER{
+    border: 1px solid #B7D4EA;
+    box-shadow: 0 0 8px #B7D4EA;
+}
